@@ -1,9 +1,9 @@
 <?php
 /*
- * Plugin Name: Gravity Forms Save Between Pages
+ * Plugin Name: Gravity Forms Save Between Pages Add-On
  * Version: 1.0
  * Plugin URI: http://branchdigital.com.au/
- * Description: Progressively save user the entries on multi-page forms between each page
+ * Description: Progressively save user the entries on multi-page Gravity Forms between each page
  * Author: Shanon Scully
  * Author URI: http://shanonscully.com/
  * Requires at least: 4.2.2
