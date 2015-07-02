@@ -1,14 +1,30 @@
 <?php
+
 /*
- * Plugin Name: Gravity Forms Save Between Pages Add-On
- * Version: 1.0
- * Plugin URI: http://branchdigital.com.au/
- * Description: Progressively save user the entries on multi-page Gravity Forms between each page
- * Author: Shanon Scully
- * Author URI: http://shanonscully.com/
- * Requires at least: 4.2.2
- * Tested up to: 4.2.2
- */
+Plugin Name: Gravity Forms Save Between Pages Add-On
+Plugin URI:  https://github.com/shanooooon/gravityforms-save-between-pages
+Description: Progressively save user the entries on multi-page Gravity Forms between each page
+Version:     0.1.0
+Author:      Shanon Scully
+Author URI:  http://shanonscully.com/
+License:     GPL3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/*
+Gravity Forms Save Between Pages Add-On is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+any later version.
+ 
+Gravity Forms Save Between Pages Add-On is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+ 
+You should have received a copy of the GNU General Public License
+along with Gravity Forms Save Between Pages Add-On. If not, see {License URI}.
+*/
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
