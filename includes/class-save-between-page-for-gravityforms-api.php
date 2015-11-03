@@ -6,16 +6,16 @@ if (class_exists("GFForms")) {
 
 	GFForms::include_addon_framework();
 
-	class GravityForms_Save_Between_Pages_API extends GFAddOn {
+	class Save_Between_Pages_for_GravityForms_API extends GFAddOn {
 
 		/**
 		 * Set variables
 		 */
-		protected $_version = "0.1.0";
+		protected $_version                  = "0.1.0";
 		protected $_min_gravityforms_version = "1.7.9999";
-		protected $_slug = "gravityForms_save_between_pages";
-		protected $_title = "Gravity Forms Save Between Pages";
-		protected $_short_title = "Save Between Pages";
+		protected $_slug                     = "Save_Between_Pages_for_GravityForms";
+		protected $_title                    = "Save Between Pages for Gravity Forms";
+		protected $_short_title              = "Save Between Pages";
 
 		/**
 		 * Frontend initiates
@@ -65,7 +65,7 @@ if (class_exists("GFForms")) {
         public function form_settings_fields($form) {
             return array(
                 array(
-                    "title"  => "Gravity Forms Save Between Pages",
+                    "title"  => "Save Between Pages for Gravity Forms",
                     "fields" => array(
                         array(
                             "label"   => "Save Between Pages",

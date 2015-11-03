@@ -1,4 +1,4 @@
-=== Gravity Forms Save Between Pages Add-On ===
+=== Save Between Pages for Gravity Forms Add-On ===
 Contributors: Shanooooon
 Donate link: http://shanonscully.com/donate
 Tags: gravity forms, 
@@ -12,7 +12,7 @@ Gravity Forms Add-On to progressively save user the entries on multi-page forms 
 
 == Description ==
 
-The Gravity Forms Save Between Pages Add-On is to be used with the [Gravity Forms](http://www.gravityforms.com/ "Gravity Forms Plugin") plugin by Rocketgenius.
+The Save Between Pages for Gravity Forms Add-On is to be used with the [Gravity Forms](http://www.gravityforms.com/ "Gravity Forms Plugin") plugin by Rocketgenius.
 The add-on is designed for multi-page forms and saves users' form input as they are move between pages. The add on will capture their inputs even if they don't submit the form.
 User entries are only progressivly saved on forms that have the Save Between Pages setting enabled.
 The add-on can be used on public facing forms and doesn't requre user login.

@@ -2,10 +2,10 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-class GravityForms_Save_Between_Pages {
+class Save_Between_Pages_for_GravityForms {
 
 	/**
-	 * The single instance of GravityForms_Save_Between_Pages.
+	 * The single instance of Save_Between_Pages_for_GravityForms.
 	 * @var 	object
 	 * @access  private
 	 * @since 	1.0.0
@@ -52,7 +52,7 @@ class GravityForms_Save_Between_Pages {
 	 */
 	public function __construct ( $file = '', $version = '1.0.0' ) {
 		$this->_version = $version;
-		$this->_token = 'gravityForms_save_between_pages';
+		$this->_token = 'Save_Between_Pages_for_GravityForms';
 
 		// Load plugin environment variables
 		$this->file = $file;
@@ -60,21 +60,21 @@ class GravityForms_Save_Between_Pages {
 
 		// Load API for generic admin functions
 		if (class_exists("GFForms")) {
-			$this->api = new GravityForms_Save_Between_Pages_API();
+			$this->api = new Save_Between_Pages_for_GravityForms_API();
 		}
 
 		register_activation_hook( $this->file, array( $this, 'install' ) );
 	} // End __construct ()
 
 	/**
-	 * Main GravityForms_Save_Between_Pages Instance
+	 * Main Save_Between_Pages_for_GravityForms Instance
 	 *
-	 * Ensures only one instance of GravityForms_Save_Between_Pages is loaded or can be loaded.
+	 * Ensures only one instance of Save_Between_Pages_for_GravityForms is loaded or can be loaded.
 	 *
 	 * @since 1.0.0
 	 * @static
-	 * @see GravityForms_Save_Between_Pages()
-	 * @return Main GravityForms_Save_Between_Pages instance
+	 * @see Save_Between_Pages_for_GravityForms()
+	 * @return Main Save_Between_Pages_for_GravityForms instance
 	 */
 	public static function instance ( $file = '', $version = '1.0.0' ) {
 		if ( is_null( self::$_instance ) ) {
